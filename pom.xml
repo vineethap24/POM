@@ -18,7 +18,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>apigee</groupId>
+    <groupId>com.vineetha.apigee</groupId>
     <artifactId>parent-pom</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
@@ -77,7 +77,7 @@
                             <overwrite>true</overwrite>
                             <encoding>UTF-8</encoding>
                              <echo message="basedir parent : ${basedir}"/>
-                            <outputDirectory>${basedir}/target/apiproxy</outputDirectory>
+                            <!--outputDirectory>${basedir}/target/apiproxy</outputDirectory-->
                             <resources>
                                 <resource>
                                     <directory>apiproxy</directory>
