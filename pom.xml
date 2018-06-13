@@ -81,6 +81,7 @@
                             <resources>
                                 <resource>
                                     <directory>apiproxy</directory>
+									<directory>sharedflowbundle</directory>
                                 </resource>
                             </resources>
                         </configuration>
