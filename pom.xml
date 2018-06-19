@@ -34,7 +34,7 @@
             <releases>
                 <updatePolicy>never</updatePolicy>
             </releases>
-        </pluginRepository>
+	    </pluginRepository>
     </pluginRepositories>
     <properties>
             <main.basedir>${project.basedir}</main.basedir>
